@@ -1,0 +1,5 @@
+{
+  "player": "spotify",
+  "format": "{artist} - {title}",
+  "max_length": 30
+}

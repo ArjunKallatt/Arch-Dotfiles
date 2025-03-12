@@ -1,0 +1,812 @@
+{
+	"file_history":
+	[
+		"/home/aaru/.config/i3blocks/blocks/weather.py",
+		"/home/aaru/worknotes.txt",
+		"/home/init0/.config/i3blocks/blocks/battery.sh"
+	],
+	"folder_history":
+	[
+	],
+	"last_version": 4192,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"next_update_check": 1741516317,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			964.0,
+			63.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/init0/.config/i3blocks/blocks/cpu.sh",
+				"/home/init0/.config/i3blocks/blocks/ram.sh",
+				"/home/init0/Downloads/Texts-Linux-x64-v0.84.9-580ab584ea.AppImage",
+				"/home/init0/wifi.py",
+				"/home/init0/.config/i3blocks/blocks/sound.sh",
+				"/home/init0/.config/i3blocks/config",
+				"/home/init0/.config/i3blocks/blocks/wifi.py",
+				"/home/init0/.config/i",
+				"/home/init0/.config/i3/configbak",
+				"/home/aaru/.config/i3blocks/blocks/weather.py",
+				"/home/aaru/worknotes.txt",
+				"/home/init0/.config/i3blocks/blocks/battery.sh"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/init0/.config/i3/configbak",
+					"settings":
+					{
+						"buffer_size": 6874,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/init0/.config/i",
+					"settings":
+					{
+						"buffer_size": 5550,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/init0/.config/i3blocks/blocks/wifi.py",
+					"settings":
+					{
+						"buffer_size": 1579,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							4,
+							35,
+							"left_delete",
+							null,
+							"IwAAALIAAAAAAAAAsgAAAAAAAAABAAAAZbEAAAAAAAAAsQAAAAAAAAABAAAAbbAAAAAAAAAAsAAAAAAAAAABAAAAZa8AAAAAAAAArwAAAAAAAAABAAAAaK4AAAAAAAAArgAAAAAAAAABAAAAY60AAAAAAAAArQAAAAAAAAABAAAAc6wAAAAAAAAArAAAAAAAAAABAAAAX6sAAAAAAAAAqwAAAAAAAAABAAAAcqoAAAAAAAAAqgAAAAAAAAABAAAAb6kAAAAAAAAAqQAAAAAAAAABAAAAbKgAAAAAAAAAqAAAAAAAAAABAAAAb6cAAAAAAAAApwAAAAAAAAABAAAAY6YAAAAAAAAApgAAAAAAAAABAAAAL6UAAAAAAAAApQAAAAAAAAABAAAAcqQAAAAAAAAApAAAAAAAAAABAAAAZaMAAAAAAAAAowAAAAAAAAABAAAAcKIAAAAAAAAAogAAAAAAAAABAAAAYaEAAAAAAAAAoQAAAAAAAAABAAAAcKAAAAAAAAAAoAAAAAAAAAABAAAAbJ8AAAAAAAAAnwAAAAAAAAABAAAAbJ4AAAAAAAAAngAAAAAAAAABAAAAYZ0AAAAAAAAAnQAAAAAAAAABAAAAV5wAAAAAAAAAnAAAAAAAAAABAAAAbZsAAAAAAAAAmwAAAAAAAAABAAAAb5oAAAAAAAAAmgAAAAAAAAABAAAAZJkAAAAAAAAAmQAAAAAAAAABAAAAbpgAAAAAAAAAmAAAAAAAAAABAAAAYZcAAAAAAAAAlwAAAAAAAAABAAAAUpYAAAAAAAAAlgAAAAAAAAABAAAAL5UAAAAAAAAAlQAAAAAAAAABAAAAYpQAAAAAAAAAlAAAAAAAAAABAAAAdZMAAAAAAAAAkwAAAAAAAAABAAAAaJIAAAAAAAAAkgAAAAAAAAABAAAAdJEAAAAAAAAAkQAAAAAAAAABAAAAaZAAAAAAAAAAkAAAAAAAAAABAAAAZw",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAswAAAAAAAACzAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							10,
+							"left_delete",
+							null,
+							"CgAAAI8AAAAAAAAAjwAAAAAAAAABAAAAL44AAAAAAAAAjgAAAAAAAAABAAAAc40AAAAAAAAAjQAAAAAAAAABAAAAdIwAAAAAAAAAjAAAAAAAAAABAAAAbosAAAAAAAAAiwAAAAAAAAABAAAAZYoAAAAAAAAAigAAAAAAAAABAAAAbYkAAAAAAAAAiQAAAAAAAAABAAAAdYgAAAAAAAAAiAAAAAAAAAABAAAAY4cAAAAAAAAAhwAAAAAAAAABAAAAb4YAAAAAAAAAhgAAAAAAAAABAAAARA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": ".cache"
+							},
+							"BgAAAIYAAAAAAAAAhwAAAAAAAAAAAAAAhwAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIkAAAAAAAAAAAAAAIkAAAAAAAAAigAAAAAAAAAAAAAAigAAAAAAAACLAAAAAAAAAAAAAACLAAAAAAAAAIwAAAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAhgAAAAAAAACGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "/wal"
+							},
+							"BAAAAIwAAAAAAAAAjQAAAAAAAAAAAAAAjQAAAAAAAACOAAAAAAAAAAAAAACOAAAAAAAAAI8AAAAAAAAAAAAAAI8AAAAAAAAAkAAAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAjAAAAAAAAACMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": "/wal"
+							},
+							"BAAAAJAAAAAAAAAAkQAAAAAAAAAAAAAAkQAAAAAAAACSAAAAAAAAAAAAAACSAAAAAAAAAJMAAAAAAAAAAAAAAJMAAAAAAAAAlAAAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							1,
+							"",
+							null,
+							"AgAAAMsAAAAAAAAAhgEAAAAAAAAAAAAAhgEAAAAAAACGAQAAAAAAAG0AAABmb3IgbGluZSBpbiBjb2xvcl9zY2hlbWUuc3BsaXQoIlxuIik6CiAgICAgICAga2V5LCB2YXJpYWJsZSA9IGxpbmUuc3BsaXQoIj0iKQogICAgICAgIGNvbG9yc1trZXldID0gdmFyaWFibGUK",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAOAEAAAAAAADLAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/init0/.config/i3blocks/config",
+					"settings":
+					{
+						"buffer_size": 1462,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							4,
+							4,
+							"left_delete",
+							null,
+							"BAAAABYDAAAAAAAAFgMAAAAAAAABAAAASRUDAAAAAAAAFQMAAAAAAAABAAAARhQDAAAAAAAAFAMAAAAAAAABAAAASRMDAAAAAAAAEwMAAAAAAAABAAAAVw",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAFwMAAAAAAAAXAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"paste",
+							null,
+							"AQAAABMDAAAAAAAAFQMAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAEwMAAAAAAAATAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							5,
+							"left_delete",
+							null,
+							"BQAAAEwCAAAAAAAATAIAAAAAAAABAAAAIEsCAAAAAAAASwIAAAAAAAABAAAARUoCAAAAAAAASgIAAAAAAAABAAAATUkCAAAAAAAASQIAAAAAAAABAAAAT0gCAAAAAAAASAIAAAAAAAABAAAASA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAATQIAAAAAAABNAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"",
+							null,
+							"AQAAAEgCAAAAAAAASQIAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAASAIAAAAAAABIAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"paste",
+							null,
+							"AgAAANcEAAAAAAAA2QQAAAAAAAAAAAAA2QQAAAAAAADZBAAAAAAAAAMAAABCQVQ",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA1wQAAAAAAADaBAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"paste",
+							null,
+							"AgAAAF0BAAAAAAAAXgEAAAAAAAAAAAAAXgEAAAAAAABeAQAAAAAAAAMAAABNRU0",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAXQEAAAAAAABgAQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/init0/.config/i3blocks/blocks/sound.sh",
+					"settings":
+					{
+						"buffer_size": 1091,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/init0/wifi.py",
+					"settings":
+					{
+						"buffer_size": 3046,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/init0/Downloads/Texts-Linux-x64-v0.84.9-580ab584ea.AppImage",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/init0/.config/i3blocks/blocks/ram.sh",
+					"settings":
+					{
+						"buffer_size": 523,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/init0/.config/i3blocks/blocks/cpu.sh",
+					"settings":
+					{
+						"buffer_size": 373,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/aaru/.config/i3blocks/blocks/weather.py",
+				"/home/aaru/worknotes.txt",
+				"/home/init0/.config/i3blocks/blocks/battery.sh"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/init0/.config/i3/configbak",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6874,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										337,
+										337
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 8,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/init0/.config/i",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5550,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										391,
+										391
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/init0/.config/i3blocks/blocks/wifi.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1579,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1259,
+										1257
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 420.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/init0/.config/i3blocks/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1462,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 288.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/init0/.config/i3blocks/blocks/sound.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1091,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/init0/wifi.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3046,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2877,
+										2877
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1257.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/init0/Downloads/Texts-Linux-x64-v0.84.9-580ab584ea.AppImage",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Binary/Binary.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/init0/.config/i3blocks/blocks/ram.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 523,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										306,
+										305
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/home/init0/.config/i3blocks/blocks/cpu.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 373,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										147,
+										145
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,962,32,1908,1068,1920,1080,1",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

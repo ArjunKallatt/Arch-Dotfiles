@@ -1,0 +1,82 @@
+# Global Settings
+separator=true
+separator_block_width=15
+markup=none
+background=#00000000
+border=#00000000
+border_width=0
+command=cat ~/.cache/wal/colors.json | jq -r '.foreground'
+
+# Spotify
+[mpris]
+command=~/.local/bin/i3blocks-mpris -c ~/.config/i3blocks-mpris/config.json
+interval=persist
+
+# Volume
+[volume]
+label=VOL 
+command=~/.config/i3blocks/i3blocks-contrib/volume/volume
+interval=1
+signal=0
+
+# Memory
+[memory]
+label= 
+command=~/.config/i3blocks/i3blocks-contrib/memory/memory
+interval=30
+separator=true
+
+#[memory]
+#label=SWAP 
+#command=~/.config/i3blocks/i3blocks-contrib/memory/memory swap
+#interval=30
+#separator=true
+#
+# Disk Usage
+[disk]
+label=🏠
+command=~/.config/i3blocks/i3blocks-contrib/disk/disk
+interval=30
+
+# Network
+#[iface]
+#label=NET
+#command=~/.config/i3blocks/i3blocks-contrib/iface/iface
+#interval=10
+#separator=true
+
+[wifi]
+label=  
+command=~/.config/i3blocks/i3blocks-contrib/wifi/wifi
+interval=10
+separator=true
+
+[bandwidth]
+label=BAND 
+command=~/.config/i3blocks/i3blocks-contrib/bandwidth/bandwidth
+interval=5
+
+# CPU Usage
+[cpu_usage]
+label=CPU 
+command=~/.config/i3blocks/i3blocks-contrib/cpu_usage/cpu_usage
+interval=10
+min_width=CPU 100.00%
+
+[load_average]
+label=LOAD 
+command=~/.config/i3blocks/i3blocks-contrib/load_average/load_average
+interval=10
+
+# Battery
+[battery]
+label=  
+command=~/.config/i3blocks/i3blocks-contrib/battery/battery
+interval=5
+
+# Date & Time
+[time]
+command=date '+%Y-%m-%d %I:%M:%S %p'
+interval=1
+
+

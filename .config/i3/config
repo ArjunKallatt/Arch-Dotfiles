@@ -1,0 +1,194 @@
+#    _                    
+#   / \   __ _ _ __ _   _ 
+#  / _ \ / _` | '__| | | |
+# / ___ \ (_| | |  | |_| |
+#/_/   \_\__,_|_|   \__,_|
+
+### CONFIGURATION FOR i3 WINDOW MANAGER ###
+
+font pango:monospace 10
+
+# ==============================
+# |         MOD KEYS           |
+# ==============================
+
+set $mod Mod4
+set $alt Mod1
+
+floating_modifier $mod
+
+# ==============================
+# |        WINDOW GAPS         |
+# ==============================
+
+for_window [class="^.*"] border pixel 2
+gaps inner 4
+gaps outer 4
+#smart_gaps no_gaps
+smart_borders on
+
+# ==============================
+# |      WINDOW CONTROLS       |
+# ==============================
+
+# Kill focused window
+bindsym $mod+q kill
+
+# Change focus
+#bindsym $mod+h focus left
+#bindsym $mod+j focus down
+#bindsym $mod+k focus up
+#bindsym $mod+l focus right
+
+bindsym Mod1+Tab focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Resize window
+bindsym $mod+h resize shrink width 10 px or 10 ppt
+bindsym $mod+j resize grow height 10 px or 10 ppt
+bindsym $mod+k resize shrink height 10 px or 10 ppt
+bindsym $mod+l resize grow width 10 px or 10 ppt
+
+# Floating mode & sticky toggle
+bindsym $mod+s floating toggle
+bindsym $mod+Shift+s sticky toggle
+bindsym $mod+space focus mode_toggle
+
+# Fullscreen toggle
+bindsym $mod+f fullscreen toggle
+
+# Layout toggles
+#bindsym $mod+Shift+e layout toggle split
+bindsym $mod+Ctrl+h split h
+bindsym $mod+Ctrl+v split v
+
+# ==============================
+# |       WORKSPACES           |
+# ==============================
+
+# Switching workspaces
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+
+# Moving containers to workspaces
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+
+# Workspace cycling
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+
+# ==============================
+# |      SYSTEM COMMANDS       |
+# ==============================
+
+# Restart i3
+bindsym $mod+Shift+r restart
+
+# Exit i3 (log out)
+bindsym $mod+Shift+q exec ~/.config/i3/powermenu.sh
+
+# ==============================
+# |       SCREENSHOTS          |
+# ==============================
+
+bindsym Print exec scrot -e 'mv $f ~/Pictures/Scrot/' && dunstify 'Screenshot saved!'
+bindsym Shift+Print exec scrot -s -e 'mv $f ~/Pictures/Scrot/' && dunstify 'Area Screenshot saved!'
+bindsym $mod+Print exec scrot -u -e 'mv $f ~/Pictures/Scrot/' && dunstify 'Window Screenshot saved!'
+
+# ==============================
+# |    BRIGHTNESS & AUDIO      |
+# ==============================
+
+# Brightness control
+bindsym XF86MonBrightnessDown exec brightnessctl s 1%-
+bindsym XF86MonBrightnessUp exec brightnessctl s +1%
+
+# Audio controls
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# ==============================
+# |  APPLICATION SHORTCUTS     |
+# ==============================
+
+bindsym $mod+d exec dmenu_run
+bindsym $mod+w exec firefox
+bindsym $mod+a exec thunar
+bindsym $mod+Shift+n exec nmtui
+bindsym $mod+Return exec alacritty
+bindsym $mod+Shift+a exec st -n ranger -e ranger
+bindsym $mod+Shift+w exec ~/.config/rofi/scripts/blue
+bindsym $mod+Mod1+n exec st -n nvim -e nvimch:Wq
+bindsym $mod+Mod1+c exec st -n calcurse -e calcurse
+#bindsym $mod+Shift+e exec bash ~/.config/i3blocks/Scripts/i3blocks-colorscheme-picker/colorscheme-picker -d ~/Pictures/
+bindsym $mod+Shift+e exec wal -i ~/Pictures/
+
+# ==============================
+# |       AUTOSTART            |
+# ==============================
+
+#exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+exec_always ~/.config/i3/alternating_layouts.py
+exec --no-startup-id dunst &
+exec --no-startup-id nm-applet &
+exec --no-startup-id blueman-applet &
+exec_always picom
+exec --no-startup-id wal -R
+exec --no-startup-id feh --bg-scale "$(cat ~/.cache/wal/wal)"
+exec_always pywalfox update
+#exec --no-startup-id ~/.config/polybar/launch.sh &
+#exec --no-startup-id mpv --no-video ~/audio/SoundEffects/Computer_Magic-Microsift-1901299923.mp3 &
+
+# ==============================
+# |   BATTERY NOTIFICATION     |
+# ==============================
+
+exec_always --no-startup-id bash -c 'while true; do if [[ $(cat /sys/class/power_supply/BAT0/capacity) -lt 15 ]]; then dunstify -u critical "Low Battery!"; fi; sleep 60; done' &
+
+# ==============================
+# |   i3 BAR CONFIGURATION     |
+# ==============================
+
+bar {
+
+    font pango:Monospace 11
+    position top
+	status_command SCRIPT_DIR=~/.config/i3blocks/i3blocks-contrib i3blocks
+	i3bar_command i3bar --transparency
+    colors {
+        background #FF000000
+        separator  #666666
+        statusline #ffffff
+    }
+	separator_symbol "|"
+}
+
