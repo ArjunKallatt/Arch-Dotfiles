@@ -534,7 +534,9 @@ alias personal='cp -Rf /personal/* ~'
 alias cc="cd ~/.config/i3"
 alias conf="nvim ~/.config/i3/config"
 alias ww="wal -i Pictures/"
-
+alias dotf="git add .config/
+git commit -m "Updated .config"
+git push origin main"
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
