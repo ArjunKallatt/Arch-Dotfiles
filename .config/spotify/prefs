@@ -1,7 +1,7 @@
 autologin.saved_credentials="{\"txfgk26d2yylz7897syrt2qll\":[\"txfgk26d2yylz7897syrt2qll\",\"VbGlUOUlcq8i3jeQ7S/mH8chkgy8gQFvj60IDjdzx8UnJx2Nl1ZO/J3MJ4Q1spJC+RxK1VjhEBNA5V8ymhss06zY3OJNYJ8WjOkHi9uOWemg7/9QDNdAT7AMq9f5SM1dZhk3ACPzfZBHwNlxoxJ8BhppzpnxvoXLAod3eDvuIaKsRf/fKQibZHqUPIXu3UtX5iu1dYbwJlvEetIwadABOfxq//Zbu17thaq53YngX1vNR/wiDtTtuKg4UwOAdUDzT7zqVXKriXyvbpn5xuQnhEv/Gzc10X8YCafC8xtbnvA=\"]}"
 autologin.blob="VbGlUOUlcq8i3jeQ7S/mH8chkgy8gQFvj60IDjdzx8UnJx2Nl1ZO/J3MJ4Q1spJC+RxK1VjhEBNA5V8ymhss06zY3OJNYJ8WjOkHi9uOWemg7/9QDNdAT7AMq9f5SM1dZhk3ACPzfZBHwNlxoxJ8BhppzpnxvoXLAod3eDvuIaKsRf/fKQibZHqUPIXu3UtX5iu1dYbwJlvEetIwadABOfxq//Zbu17thaq53YngX1vNR/wiDtTtuKg4UwOAdUDzT7zqVXKriXyvbpn5xuQnhEv/Gzc10X8YCafC8xtbnvA="
 es.send-on-startup=true
-core.clock_delta=0
+core.clock_delta=-2
 autologin.username="txfgk26d2yylz7897syrt2qll"
 app.window.state=2
 app.window.position.saved=true
